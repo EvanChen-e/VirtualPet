@@ -5,11 +5,16 @@ size(400,400);
 }
 void draw()
 {
+  noStroke();
   //Arrow
+  fill(#F71B1B);
+  rect(10,190,20,100);
+  triangle(20,160,0,190,40,190);
+  rect(10,190,20,100);
+  triangle(380,160,360,190,400,190);
   
   //Bitcoin Background
   fill(#EFF0A9);
-  noStroke();
   ellipse(200,200,300,300);
   fill(#FFCC48);
   ellipse(200,200,250,250);
@@ -34,11 +39,11 @@ void draw()
   fill(255,255,255);
   arc(160,206,20,20,0,PI);
   arc(185,208,30,20,0,PI);
-  //text("Much Wow");
-  //text("Very Stonks");
-  //text("Doge on Coin");
-  //text("Invest Yes");
-  //text("Adorable");
+  //text("Much Wow",);
+  //text("Very Stonks",);
+  //text("Doge on Coin",);
+  //text("Invest Yes",);
+  //text("Adorable",);
   
   //Outline of Doge
   stroke(0,0,0);
