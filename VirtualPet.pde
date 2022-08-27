@@ -14,7 +14,7 @@ void draw()
   fill(#FF3131);
   text("Very Stonks",298,37);
   fill(#FF8D00);
-  text("Doge on Coin",214,389);
+  text("Doge Coinz",214,389);
   fill(#00F9FF);
   text("Pls Invest",350,316);
   fill(#FE00FF);
