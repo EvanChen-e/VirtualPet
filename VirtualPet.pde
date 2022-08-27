@@ -5,12 +5,27 @@ size(400,400);
 }
 void draw()
 {
+  //Doge Expressions
+  fill(0,0,0);
+  textSize(15);
+  textAlign(CENTER);
+  fill(#FAFF00);
+  text("Much Wow",75,37);
+  fill(#FF3131);
+  text("Very Stonks",298,37);
+  fill(#FF8D00);
+  text("Doge on Coin",214,389);
+  fill(#00F9FF);
+  text("Pls Invest",350,316);
+  fill(#FE00FF);
+  text("Such Adorable",55,332);
+  
+  //Arrows
   noStroke();
-  //Arrow
   fill(#F71B1B);
   rect(10,190,20,100);
   triangle(20,160,0,190,40,190);
-  rect(10,190,20,100);
+  rect(370,190,20,100);
   triangle(380,160,360,190,400,190);
   
   //Bitcoin Background
@@ -25,10 +40,12 @@ void draw()
   quad(297,279,204,302,198,260,272,218);
   quad(137,183,264,194,297,279,147,261);
   triangle(137,183,123,211,147,261);
+  
   //Ears
   stroke(0,0,0);
   triangle(156,130,152,150,164,148);
   triangle(240,126,229,144,247,151);
+  
   //Face
   ellipse(160,172,20,15);
   ellipse(200,175,20,15);
@@ -39,11 +56,6 @@ void draw()
   fill(255,255,255);
   arc(160,206,20,20,0,PI);
   arc(185,208,30,20,0,PI);
-  //text("Much Wow",);
-  //text("Very Stonks",);
-  //text("Doge on Coin",);
-  //text("Invest Yes",);
-  //text("Adorable",);
   
   //Outline of Doge
   stroke(0,0,0);
